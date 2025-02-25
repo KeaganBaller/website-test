@@ -1,0 +1,47 @@
+body{
+    background-image: url("images/background.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    font-family:Arial;
+}
+h1{
+    color: white;
+    font-size: 250%;
+    text-shadow: white 0px 0px 10px;
+}
+p{
+    color: white;
+    font-size: larger;
+    text-shadow: black 0px 0px 10px;
+
+}
+img{
+    border-color: white;
+    border-radius: 10px;
+    border-style:solid;
+    box-shadow:white 0px 0px 10px;
+}
+button{
+    border-color: white;
+    color: white;
+    text-shadow: white 0px 0px 10px;
+    box-shadow:white 0px 0px 10px;
+    border-style:solid;
+    border-width: 3px;
+    font-size: larger;
+    font-weight: bold;  
+    border-radius: 10px;
+    background-color:transparent; 
+    padding: 12px;
+    transition: box-shadow 0.15s ease-in-out, text-shadow 0.15s ease-in-out;
+}
+button:hover{
+    box-shadow: white 0px 0px 8px, 
+                white 0px 0px 16px;
+    text-shadow:white 0px 0px 8px, 
+                white 0px 0px 16px,
+                white 0px 0px 24px;
+    cursor:pointer;
+}
